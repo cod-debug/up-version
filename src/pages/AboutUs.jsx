@@ -22,10 +22,10 @@ export default function AboutUs(){
                     </div>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 items-center mt-4">
-                    <div className="order-1 md:order-2">
+                    <div className="order-2 md:order-1">
                         <img src="/web-assets/images/mission.png" alt="vision" className="w-1/2 md:w-3/4 mx-auto" />
                     </div>
-                    <div className="flex flex-col gap-4 text-center md:text-left">
+                    <div className="flex flex-col gap-4 text-center md:text-left order-1 md:order-2">
                         <TextMedium className="text-primary font-bold">MISSION</TextMedium>
                         <TextNormal className="text-gray-2">We empower businesses and individuals through innovative design solutions, crafting bespoke creations that drive tangible results. Our approach is rooted in trust and collaboration, fostering long-term partnerships to continually meet evolving needs.</TextNormal>
                     </div>
