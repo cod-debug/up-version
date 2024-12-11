@@ -22,7 +22,7 @@ const links = [
 export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
     const location = useLocation();
-    const navLinkClassName = "w-full md:w-fit text-left";
+    const navLinkClassName = "w-full md:w-fit text-center md:text-left";
 
     // Close the navbar when the route changes
     useEffect(() => {
@@ -48,7 +48,7 @@ export default function Header() {
                             <Link to="/" className="hidden md:block">
                                 <img src="./web-assets/logo.png" className="mr-3 h-20 sm:h-[82px]" alt="Flowbite React Logo" id="brandImg2" />
                             </Link>
-                            <div className="flex items-center gap-10">
+                            <div className="flex flex-col md:flex-row items-center gap-10">
                                 <div className="flex flex-col md:flex-row gap-6 sm:gap-12">
                                     {
                                         links.map((i) => (

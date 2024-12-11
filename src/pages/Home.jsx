@@ -9,6 +9,7 @@ import TeacingTeam from "../components/home/TeachingTeam";
 import UncomplicatedPrice from "../components/home/UncomplicatedPrice";
 
 export default function Home(){
+    window.scroll(0, 0);
     return(
         <>
             <Container>

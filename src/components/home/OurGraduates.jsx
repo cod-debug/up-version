@@ -26,8 +26,8 @@ export default function OurGraduates(){
     return(
         <div className="my-24">
             <div className="flex flex-col gap-4 text-center px-4 md:px-10">
-                <TextLarge className="font-bold text-default">Our Graduates</TextLarge>
-                <TextNormal2 className="text-gray-2">Upversion graduates are landing jobs at top companies, equipped with the skills, experience, and portfolio employers are looking for. Our program prepares you to launch a successful career in your field.</TextNormal2>
+                <TextLarge className="font-bold text-default">About Us</TextLarge>
+                <TextNormal2 className="text-gray-2">At UPversion, we're more than just a group of creatives—we're a collaborative force dedicated to crafting exceptional experiences. Our student projects showcase the heart of our design process, from UX research and wireframing to prototyping and design flow. Each case study reflects our commitment to solving real-world challenges through user-centered design, blending creativity with strategy to d</TextNormal2>
             </div>
             <div className="py-2">
                 <Carousel responsive={responsive} infinite className="py-8">
